@@ -1,0 +1,38 @@
+header {
+      	 text-align: center;
+      	 background: url("https://i.imgur.com/0zuRIuA.jpg?2");
+      	 background-size: cover;
+      	 color: white;
+      	 font-family: helvetica;
+      }
+      h1 {
+      	font-size: 70px;
+      	color: rgba(255,255,255,1);
+        background-color: black;
+        background: linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,0));
+        background:-webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,0));
+        background:-moz-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,0);
+      }
+      ul {
+      	padding: 10px;
+      	background: #fff;
+      }
+      li {
+      	display: inline;
+      	padding: 0px 10px 0px 10px;
+      }
+      article {
+      	max-width: 500px;
+      	padding: 20px;
+      	margin: 0 auto;
+      }
+      @media (max-width: 500px) {
+      	h1 {
+      		font-size: 36px;
+      		color: #000;
+      	}
+      	li {
+      		display:block;
+      		padding: 5px;
+      	}
+      }
