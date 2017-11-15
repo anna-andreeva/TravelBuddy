@@ -44,7 +44,8 @@ h2 {
 }
 .countries{
   text-align: center;
-  background: url('holiday.jpg');
+  background: url('photos/bruges.jpg');
+  background-size: cover;
 }
 .type{
   text-align: center;
