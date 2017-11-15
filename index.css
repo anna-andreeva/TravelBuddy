@@ -21,14 +21,6 @@ h1 {
     }
 }
 
-ul {
-padding: 10px;
-background: rgba(0, 0, 0, 0.5);
-}
-li {
-display: inline;
-padding: 0px 10px 0px 10px;
-} 
 article {
 max-width: 500px;
 padding: 20px;
@@ -37,4 +29,13 @@ margin: 0 auto;
 h2 {
   text-align: center;
   font-size: 30px;
+}
+.countries{
+  text-align: center;
+}
+.type{
+  text-align: center;
+}
+.transport{
+  text-align: center;
 }
