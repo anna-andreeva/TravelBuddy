@@ -14,7 +14,8 @@ h1 {
   background:-moz-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,0);
 }
     
-@media(max-width: 500px) {
+@media(max-width: 500px)
+
     h1 {
         font-size: 36px;
         color: #000;
@@ -30,6 +31,7 @@ h2 {
   text-align: center;
   font-size: 30px;
 }
+
 .countries{
   text-align: center;
 }
