@@ -5,6 +5,10 @@ header{
 	 color: white;
 	 font-family: helvetica;
 }
+body{
+   background: #2E3740;
+   color: rgba(255, 255, 255, 1);
+}
 h1 {
 	font-size: 70px;
 	color: rgba(255,255,255,1);
