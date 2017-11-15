@@ -11,10 +11,9 @@ h1 {
   background-color: black;
   background: linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,0));
   background:-webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,0));
-  background:-moz-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,0);
+  background:-moz-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,0));
 }
-    
-@media(max-width: 500px)
+@media(max-width: 500px){
 
     h1 {
         font-size: 36px;
@@ -31,9 +30,17 @@ h2 {
   text-align: center;
   font-size: 30px;
 }
-
+.box {
+  width: 600px;
+  height: 200px;
+  background: #ccc; 
+  border-radius: 40px;
+  border: 15px solid #999;
+  margin: 0px auto;
+}
 .countries{
   text-align: center;
+  background: url('holiday.jpg');
 }
 .type{
   text-align: center;
