@@ -46,10 +46,17 @@ h2 {
   text-align: center;
   background: url('photos/bruges.jpg');
   background-size: cover;
+  font-size: 35px;
 }
 .type{
   text-align: center;
+  background: url('photos/img_0023.jpg');
+  background-size: cover;
+  font-size: 35px;
 }
 .transport{
   text-align: center;
+  background: url('photos/img_0064.jpg');
+  background-size: cover;
+  font-size: 35px;
 }
