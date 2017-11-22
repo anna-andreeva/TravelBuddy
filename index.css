@@ -44,19 +44,19 @@ h2 {
 }
 .countries{
   text-align: center;
-  background: url('photos/bruges.jpg');
+  background: url('Photos/Bruges.JPG');
   background-size: cover;
   font-size: 35px;
 }
 .type{
   text-align: center;
-  background: url('photos/img_0023.jpg');
+  background: url('Photos/IMG_0023.jpg');
   background-size: cover;
   font-size: 35px;
 }
 .transport{
   text-align: center;
-  background: url('photos/img_0064.jpg');
+  background: url('Photos/IMG_0064.jpg');
   background-size: cover;
   font-size: 35px;
 }
