@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Countries</title>
+	<title>Destinations</title>
 	<meta name="viewport" xontent="width=device-width, initial-scale=1">
 	<link href='bootstrap-4/css/bootstrap.css' rel='stylesheet'>
 	<link href="/normalize.css" rel="stylesheet">
@@ -11,16 +11,13 @@
 <body>
  <header>
  	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="index.html">Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
       <li class="nav-item">
         <a class="nav-link" href="type-holiday.html">Type of Holiday</a>
       </li>
@@ -48,9 +45,12 @@
           mapTypeId: 'hybrid'
         });
          var pinsAndLocations = [
-        {location:{lat: 47.4980100, lng: 19.0399100},text:"Budapest"},
-        {location:{lat: 50.0755381, lng: 14.4378005},text:"Prague"},
-        {location:{lat: 52.520008, lng: 13.404954},text:"Berlin"},
+        {location:{lat: 47.4980100, lng: 19.0399100},text:"Budapest, Hungary"},
+        {location:{lat: 50.0755381, lng: 14.4378005},text:"Prague, Czech Republic"},
+        {location:{lat: 52.520008, lng: 13.404954},text:"Berlin, Germany"},
+        {location:{lat: 51.50853, lng: -0.12574},text:"London, United Kingdom"},
+        {location:{lat: 42.64807, lng: 18.09216},text:"Dubrovnik, Croatia"},
+        {location:{lat: 43.70313, lng: 7.26608},text:"Nice, France"},
        ];
        
        pinsAndLocations.forEach(a=>{

@@ -6,8 +6,9 @@ header{
 	 font-family: helvetica;
 }
  #map {
-        height: 400px;
+        height: 100%;
         width: 100%;
+        position: absolute;
        }
 body{
    background: #2E3740;
