@@ -5,13 +5,24 @@ header{
 	 color: white;
 	 font-family: helvetica;
 }
+ #map {
+        height: 400px;
+        width: 100%;
+       }
 body{
    background: #2E3740;
    color: rgba(255, 255, 255, 1);
 }
+<<<<<<< HEAD
 a {
 	color: antiquewhite;
 }
 a:hover {
 	color: pink;
 }
+=======
+
+.map-info {
+	color: black;
+}
+>>>>>>> f07f34333fd8210d32a31c5f1b53efb495972f90
