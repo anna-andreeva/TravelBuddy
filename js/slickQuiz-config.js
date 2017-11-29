@@ -23,7 +23,7 @@ var quizJSON = {
             "correct": "<p><span>That's right!</span> The letter A is the first letter in the alphabet!</p>",
             "incorrect": "<p><span>Uhh no.</span> It's the first letter of the alphabet. Did you actually <em>go</em> to kindergarden?</p>" // no comma here
         },
-        { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
+        { // Question 2 - Multiple Choice, Single True Answer
             "q": "Which would you prefer?",
             "a": [
                 {"option": "A relaxing sunbathe on the beach",               "correct": true},
@@ -33,7 +33,7 @@ var quizJSON = {
             "correct": "<p><span>Nice!</span> Your cholestoral level is probably doing alright.</p>",
             "incorrect": "<p><span>Hmmm.</span> You might want to reconsider your options.</p>" // no comma here
         },
-        { // Question 3 - Multiple Choice, Multiple True Answers, Select All
+        { // Question 3 - Multiple Choice, Single True Answer
             "q": "Which meal would you prefer?",
             "a": [
                 {"option": "Seafood and icecream",           "correct": true},
@@ -42,7 +42,7 @@ var quizJSON = {
             "correct": "<p><span>Brilliant!</span> You're seriously a genius, (wo)man.</p>",
             "incorrect": "<p><span>Not Quite.</span> You're actually on Planet Earth, in The Milky Way, At a computer. But nice try.</p>" // no comma here
         },
-        { // Question 4
+        { // Question 4 - Multiple Choice, Single True Answer
             "q": "How many inches of rain does Michigan get on average per year?",
             "a": [
                 {"option": "149",    "correct": false},
@@ -51,7 +51,7 @@ var quizJSON = {
             "correct": "<p><span>Holy bananas!</span> I didn't actually expect you to know that! Correct!</p>",
             "incorrect": "<p><span>Fail.</span> Sorry. You lose. It actually rains approximately 32 inches a year in Michigan.</p>" // no comma here
         },
-        { // Question 5
+        { // Question 5 - Multiple Choice, Single True Answer
             "q": "Is Earth bigger than a basketball?",
             "a": [
                 {"option": "Yes",    "correct": true},
