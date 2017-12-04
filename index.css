@@ -41,6 +41,9 @@ p {
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
 }
+.p2 {
+  font-size: 15px;
+}
 .box {
   width: 600px;
   height: 200px;
@@ -74,12 +77,14 @@ p {
   font-size: 35px;
 }
 .us{
-  width: 320px;
-  height: 320px;
-  background: #ccc; 
-  border-radius: 10px;
-  border: 5px solid #999;
   margin: 0px auto;
   background: url('Photos/Anna_Eiza.jpg');
   background-size: cover;
+  width: 320px;
+  height: 320px;
+  border-radius: 10px;
+  border: 10px solid #e0ffff;
+}
+.about{
+  font-size: 5px;
 }
