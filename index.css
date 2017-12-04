@@ -4,7 +4,6 @@ header{
 	 background-size: cover;
 	 color: white;
 	 font-family: 'Abril Fatface', cursive;
-   height: 400px;
 }
 body{
    background: #2E3740;
@@ -41,10 +40,6 @@ p {
   font-size: 25px;
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
-}
-.welcome {
-  position: relative;
-  top: 75px;
 }
 .p2 {
   font-size: 15px;
