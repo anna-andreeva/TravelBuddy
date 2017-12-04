@@ -85,6 +85,39 @@ p {
   border-radius: 10px;
   border: 10px solid #e0ffff;
 }
-.about{
-  font-size: 5px;
+.arrow-right{
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid powderblue;
+  border-bottom: 50px solid transparent;
+  position: relative;
+  right: 35px;
+  top: -150px;
+}
+.arrow-right > span {
+  position: absolute;
+  right: 35px;
+  font-size: 30px;
+  top: -25px;
+}
+.arrow-left{
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 100px solid powderblue;
+  border-bottom: 50px solid transparent;
+  position: relative;
+  left: 395px;
+  top: -400px;
+}
+.arrow-left > span {
+  position: absolute;
+  right: -95px;
+  font-size: 30px;
+  top: -25px;
+}
+p > span {
+  position: relative;
+  top: -150px;
 }
