@@ -11,7 +11,7 @@ body {
  border: 1px gray solid;
  margin: auto;
  padding: 10px;
- background-color: url('IMG_0023.jpg');
+ background-color: #ffe6f2;
  border-radius: 10px;
 }
 
@@ -19,12 +19,15 @@ body {
  margin-top: 0;
  border: 2px solid black;
  padding: 5px;
- height: 250px;
- background: blue;
- background-color: blue;
+ height: 100px;
+ background: #85144b;
+ background-color: #85144b;
  color: white;
 }
-
+h1 {
+	text-align: center;
+	font-family: 'Cormorant Garamond', serif;
+}
 label {
  display: block;
 }
@@ -37,12 +40,13 @@ input {
 h2 {
  clear: both;
  text-align: center;
+ font-family: 'Cormorant Garamond', serif;
 }
 
 button {
- width: 100px;
+ width: 120px;
  margin-top: 20px;
- background-color: #4CAF50; /* Green */
+ background-color: #85144b; /* Green */
  border: none;
  color: white;
  padding: 15px 32px;
@@ -50,6 +54,11 @@ button {
  text-decoration: none;
  display: inline-block;
  font-size: 16px;
+}
+
+.result2 {
+	text-align: center;
+	font-family: 'Cormorant Garamond', serif;
 }
 
 </style>
