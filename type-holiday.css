@@ -1,38 +1,47 @@
-header{
-	 text-align: center;
-	 background: url("https://i.imgur.com/0zuRIuA.jpg?2");
-	 background-size: cover;
-	 color: white;
-	 font-family: helvetica;
+<style>
+body {
+background-color: lightblue;
+font-family: Helvetica;
 }
 
-*					{ margin: 0; padding: 0; }
-body				{ font: 14px Georgia, serif; }
-
-#page-wrap		    { width: 500px; margin: 0 auto; }
-
-h1                  { margin: 25px 0; font: 14px Georgia, Serif; text-transform: uppercase; letter-spacing: 3px; }
-
-#quiz input {
-    vertical-align: middle;
+#main {
+width: 80%;
+max-width: 950px;
+border: 1px gray solid;
+margin: auto;
+padding: 10px;
+background-color: white;
+border-radius: 10px;
 }
 
-#quiz ol {
-   margin: 0 0 10px 20px;
+#header {
+margin-top: 0;
+border: 2px solid black;
+padding: 5px;
+height: 250px;
+background: beige;
+background-image: url("code.jpg");
+color: white;
 }
 
-#quiz ol li {
-   margin: 0 0 20px 0;
+label {
+display: block;
 }
 
-#quiz ol li div {
-   padding: 4px 0;
+input {
+width: 30px;
+margin-left: 20px;
 }
 
-#quiz h3 {
-   font-size: 17px; margin: 0 0 1px 0; color: #666;
+h2 {
+clear: both;
+padding-top: 20px;
 }
 
-#results {
-    font: 44px Georgia, Serif;
+button {
+width: 100px;
+margin-top: 20px;
 }
+
+</style>
+
