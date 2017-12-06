@@ -12,5 +12,15 @@ body{
 .carousel-inner>.item>img {
 margin: 0 auto;
 height: 600px;
-width: 450px;
+width: 500px;
+}
+
+.carousel-inner>.item>.carousel-caption {
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: black;
+  background: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.2));
+  background:-webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,0.2));
+  background:-moz-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,0.2));
 }
