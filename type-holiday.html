@@ -12,35 +12,35 @@
 <form id="form1">
 <fieldset>
 <h2>What would be your perfect Friday night?</h2>
-<label for="var_string"><input type="radio" name="variable" value="0" id="var_string" />A candlelit dinner and plenty of wine</label>
-<label for="var_join"><input type="radio" name="variable" value="0" id="var_join" />A wild night out on the town</label>
-<label for="var_info"><input type="radio" name="variable" value="0" id="var_info" />Putting on your dancing shoes and going to a jazzclub</label>
-<label for="var_condition"><input type="radio" name="variable" value="0" id="var_condition"/>Watching the sunset with a chai tea in hand</label>
+<p><label for="var_string"><input type="radio" name="variable" value="0" id="var_string" />A candlelit dinner and plenty of wine</label></p>
+<p><label for="var_join"><input type="radio" name="variable" value="0" id="var_join" />A wild night out on the town</label></p>
+<p><label for="var_info"><input type="radio" name="variable" value="0" id="var_info" />Putting on your dancing shoes and going to a jazzclub</label></p>
+<p><label for="var_condition"><input type="radio" name="variable" value="0" id="var_condition"/>Watching the sunset with a chai tea in hand</label></p>
 
 <h2>During the day you would like to...</h2>
-<label for="sub_string"><input type="radio" name="sub" value="0" id="sub_string"/>Have a beach day, sunbathing and reading a book</label>
-<label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>Get as many shots in as possible (the pre-drinking can't start too soon)</label>
-<label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />Explore the cultural sites and more of what the city has to offer</label>
-<label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" />Sleep in and order a takeaway</label>
+<p><label for="sub_string"><input type="radio" name="sub" value="0" id="sub_string"/>Have a beach day, sunbathing and reading a book</label></p>
+<p><label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>Get as many shots in as possible (the pre-drinking can't start too soon)</label></p>
+<p><label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />Explore the cultural sites and more of what the city has to offer</label></p>
+<p><label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" />Sleep in and order a takeaway</label></p>
 
 <h2>Who will be joining you on the trip?</h2>
-<label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />My lover</label>
-<label for="cat_join"><input type="radio" name="con" value="25" id="cat_join" />A big group of lads/ladettes</label>
-<label for="cat_info"><input type="radio" name="con" value="25" id="cat_info" />My family</label>
-<label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" />Just me, myself and I</label>
+<p><label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />My lover</label></p>
+<p><label for="cat_join"><input type="radio" name="con" value="25" id="cat_join" />A big group of lads/ladettes</label></p>
+<p><label for="cat_info"><input type="radio" name="con" value="25" id="cat_info" />My family</label></p>
+<p><label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" />Just me, myself and I</label></p>
 
 <h2>What time of year would you like to travel?</h2>
-<label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Summer</label>
-<label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />As long as there's booze the weather doesn't faze me!</label>
-<label for="if_info"><input type="radio" name="ifstate" value="" id="if_info" />Autumn</label>
-<label for="if_condition"><input type="radio" name="ifstate"  value="0" id="if_condition" />Spring</label>
+<p><label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Summer</label></p>
+<p><label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />As long as there's booze the weather doesn't faze me!</label></p>
+<p><label for="if_info"><input type="radio" name="ifstate" value="" id="if_info" />Autumn</label></p>
+<p><label for="if_condition"><input type="radio" name="ifstate"  value="0" id="if_condition" />Spring</label></p>
 
 <button type="submit" value="Submit">Submit</button>
 </fieldset>
 </form>
 
-<p>Your grade is: <span id="grade">__</span></p>
-<p id="grade2"></p>
+<p>Your route is: <span id="route">__</span></p>
+<p id="route2"></p>
 </div><!-- close main div -->
 
 <script>
@@ -53,14 +53,14 @@ document.getElementById("form1").onsubmit=function() {
        
        result = variable + sub + con + ifstate;
        
-    document.getElementById("grade").innerHTML = result;
+    document.getElementById("route").innerHTML = result;
        
 if (result == 0) {result2 = "You need some chill time! Try this route:"};
 if (result == 25) {result2 = "A romantic route for you! Try this one:"};
 if (result == 50) {result2 = "Get yourself to the city! Try this route:"};
 if (result == 75) {result2 = " Try this route:"};
 if (result == 100) {result2 = "Let's get drunk! Try this route:"};
-document.getElementById("grade2").innerHTML = result2; 
+document.getElementById("route2").innerHTML = result2; 
 
 
 return false; // required to not refresh the page; just leave this here
