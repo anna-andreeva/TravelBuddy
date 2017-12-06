@@ -6,34 +6,34 @@
 <body>
 <div id="main"><!-- open main div -->
 <div id="header"><!-- open header div -->
-<h1>Which route should you take?</h1>
+<h1>Which route around Europe should you take?</h1>
 </div><!-- close header div -->
 
 <form id="form1">
 <fieldset>
-<h2>Which is the best description of a variable?</h2>
-<label for="var_string"><input type="radio" name="variable" value="0" id="var_string" />Identifies a portion of a string.</label>
-<label for="var_join"><input type="radio" name="variable" value="0" id="var_join" />A method to join strings.</label>
-<label for="var_info"><input type="radio" name="variable" value="25" id="var_info" />Allows you to store information so it can be reused throughout the program</label>
-<label for="var_condition"><input type="radio" name="variable" value="0" id="var_condition"/>Allows you to make a decision based on a condition.</label>
+<h2>What would be your perfect Friday night?</h2>
+<label for="var_string"><input type="radio" name="variable" value="0" id="var_string" />A candlelit dinner and plenty of wine</label>
+<label for="var_join"><input type="radio" name="variable" value="0" id="var_join" />A wild night out on the town</label>
+<label for="var_info"><input type="radio" name="variable" value="0" id="var_info" />Putting on your dancing shoes and going to a jazzclub</label>
+<label for="var_condition"><input type="radio" name="variable" value="0" id="var_condition"/>Watching the sunset with a chai tea in hand</label>
 
-<h2>Which is the best description of the substring method?</h2>
-<label for="sub_string"><input type="radio" name="sub" value="25" id="sub_string"/>Identifies a portion of a string.</label>
-<label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>A method to join strings.</label>
-<label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />Allows you to store information so it can be reused throughout the program</label>
-<label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" />Allows you to make a decision based on a condition.</label>
+<h2>During the day you would like to...</h2>
+<label for="sub_string"><input type="radio" name="sub" value="0" id="sub_string"/>Have a beach day, sunbathing and reading a book</label>
+<label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>Get as many shots in as possible (the pre-drinking can't start too soon)</label>
+<label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />Explore the cultural sites and more of what the city has to offer</label>
+<label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" />Sleep in and order a takeaway</label>
 
-<h2>Which is the best description of concatenation?</h2>
-<label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />Identifies a portion of a string.</label>
-<label for="cat_join"><input type="radio" name="con" value="25" id="cat_join" />A method to join strings.</label>
-<label for="cat_info"><input type="radio" name="con" value="0" id="cat_info" />Allows you to store information so it can be reused throughout the program</label>
-<label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" />Allows you to make a decision based on a condition.</label>
+<h2>Who will be joining you on the trip?</h2>
+<label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />My lover</label>
+<label for="cat_join"><input type="radio" name="con" value="25" id="cat_join" />A big group of lads/ladettes</label>
+<label for="cat_info"><input type="radio" name="con" value="25" id="cat_info" />My family</label>
+<label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" />Just me, myself and I</label>
 
-<h2>Which is the best description of an if statement?</h2>
-<label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Identifies a portion of a string.</label>
-<label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />A method to join strings.</label>
-<label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />Allows you to store information so it can be reused throughout the program</label>
-<label for="if_condition"><input type="radio" name="ifstate"  value="25" id="if_condition" />Allows you to make a decision based on a condition.</label>
+<h2>What time of year would you like to travel?</h2>
+<label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Summer</label>
+<label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />As long as there's booze the weather doesn't faze me!</label>
+<label for="if_info"><input type="radio" name="ifstate" value="" id="if_info" />Autumn</label>
+<label for="if_condition"><input type="radio" name="ifstate"  value="0" id="if_condition" />Spring</label>
 
 <button type="submit" value="Submit">Submit</button>
 </fieldset>
@@ -55,11 +55,11 @@ document.getElementById("form1").onsubmit=function() {
        
     document.getElementById("grade").innerHTML = result;
        
-if (result == 0) {result2 = "I don't think you studied."};
-if (result == 25) {result2 = "You need to spend more time. Try again."};
-if (result == 50) {result2 = "I think you could do better. Try again."};
-if (result == 75) {result2 = "So close. Try again."};
-if (result == 100) {result2 = "Excellent! You're a JavaScript pro!"};
+if (result == 0) {result2 = "You need some chill time! Try this route:"};
+if (result == 25) {result2 = "A romantic route for you! Try this one:"};
+if (result == 50) {result2 = "Get yourself to the city! Try this route:"};
+if (result == 75) {result2 = " Try this route:"};
+if (result == 100) {result2 = "Let's get drunk! Try this route:"};
 document.getElementById("grade2").innerHTML = result2; 
 
 
